@@ -1,11 +1,11 @@
-import React from "react"
-import Image from "gatsby-image"
-import styles from "../../css/tour.module.css"
-import { FaMap } from "react-icons/fa"
+import React from 'react'
+import Image from 'gatsby-image'
+import styles from '../../css/tour.module.css'
+import { FaMap } from 'react-icons/fa'
 
-import AniLink from "gatsby-plugin-transition-link/AniLink"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import PropTypes from 'prop-types'
+import { useStaticQuery, graphql } from 'gatsby'
 
 const getImage = graphql`
   query {
@@ -40,11 +40,10 @@ const Cube = ({ cube }) => {
         </a>
       </div>
       <div className={styles.footer}>
-        <h3>{name}</h3>
         <div className={styles.info}>
           <h4 className={styles.country}>
             <FaMap className={styles.icon} />
-            {chapter || "default country"}
+            {chapter || 'default country'}
           </h4>
           <div className={styles.details}>
             {/* <h6>{days} days</h6>

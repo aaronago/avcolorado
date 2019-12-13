@@ -1,10 +1,10 @@
-import React from "react"
+import React from 'react'
 // import Tour from "../Tours/Tour"
-import { useStaticQuery, graphql } from "gatsby"
-import Title from "../Title"
-import styles from "../../css/items.module.css"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
-import Cube from "../Cubes/Cube"
+import { useStaticQuery, graphql } from 'gatsby'
+import Title from '../Title'
+import styles from '../../css/items.module.css'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import Cube from '../Cubes/Cube'
 
 // const getTours = graphql`
 //   query {
