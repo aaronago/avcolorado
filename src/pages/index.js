@@ -1,9 +1,10 @@
 import React from 'react'
-import { ScrollTo } from 'react-scroll-to'
+import { Link } from 'react-scroll'
+
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 import About from '../components/Home/About'
-// import Services from '../components/Home/Services'
+
 import StyledHero from '../components/StyledHero'
 import { graphql } from 'gatsby'
 
@@ -11,9 +12,6 @@ import Chapters from '../components/Home/Chapters'
 import Calendar from '../components/Home/Calendar'
 
 const index = () => {
-  const calendarRef = React.useRef()
-  const hasWindow = typeof window !== 'undefined'
-
   return (
     <Layout>
       <StyledHero home="true">
@@ -21,25 +19,21 @@ const index = () => {
           title="continue exploring"
           info=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, officiis."
         >
-          {/* {hasWindow && (
-            <ScrollTo>
-              {({ scroll }) => (
-                <a
-                  className="btn-white"
-                  onClick={() =>
-                    scroll({ y: calendarRef.current.offsetTop, smooth: true })
-                  }
-                >
-                  Cubes
-                </a>
-              )}
-            </ScrollTo>
-          )} */}
+          <Link
+            className="btn-white"
+            to="calendar"
+            spy={true}
+            smooth={true}
+            offset={70}
+            duration={1000}
+          >
+            Calendar
+          </Link>
         </Banner>
       </StyledHero>
       <About />
       <Chapters />
-      {hasWindow && <Calendar ref={calendarRef} />}
+      <Calendar />
     </Layout>
   )
 }

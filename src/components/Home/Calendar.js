@@ -2,8 +2,8 @@ import React from 'react'
 import Title from '../Title'
 import styles from '../../css/services.module.css'
 
-const Calendar = React.forwardRef((props, ref) => (
-  <section className={styles.services} ref={ref}>
+const Calendar = () => (
+  <section className={styles.services} id="calendar">
     <Title title="Events" subtitle="Calendar" />
     <div className={styles.center}>
       <iframe
@@ -16,6 +16,6 @@ const Calendar = React.forwardRef((props, ref) => (
       />
     </div>
   </section>
-))
+)
 
 export default Calendar
