@@ -1,9 +1,9 @@
-import React from "react"
-import Title from "../Title"
-import styles from "../../css/about.module.css"
+import React from 'react'
+import Title from '../Title'
+import styles from '../../css/about.module.css'
 // import img from "../../images/defaultBcg.jpeg"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { useStaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 const getAbout = graphql`
   query aboutImage {
     aboutImage: file(relativePath: { eq: "hulyaDenver.jpg" }) {
@@ -21,7 +21,7 @@ const About = () => {
 
   return (
     <section className={styles.about}>
-      <Title title="about" subtitle="us" />
+      <Title title="about" subtitle="av" />
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImg}>
           <div className={styles.imgContainer}>
@@ -33,18 +33,45 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4>explore the difference</h4>
+          <h4>What We Do</h4>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-            doloribus enim necessitatibus?
+            From the{' '}
+            <a
+              href="https://www.anonymousforthevoiceless.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Anonymous for the Voiceless website:
+            </a>
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-            doloribus enim necessitatibus?
+            <em>
+              Anonymous for the Voiceless (AV) is a global animal rights
+              organization that holds an abolitionist stance against ALL forms
+              of animal exploitation.
+            </em>
           </p>
-          <button type="button" className="btn-primary">
-            read more
-          </button>
+          <p>
+            <em>
+              We host Cube of Truth demonstrations around the world to edify the
+              public and empower them to live vegan and be a voice for the
+              voiceless. We use video footage of standard practices combined
+              with personalized, one on one outreach interactions.
+            </em>
+          </p>
+          <p>
+            The best way to get involved and stay up to date on events is to
+            find your chapter below and join the facebook group.
+          </p>
+          <a
+            href="https://www.anonymousforthevoiceless.org/resources"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button type="button" className="btn-primary">
+              Why Vegan
+            </button>
+          </a>
         </article>
       </div>
     </section>

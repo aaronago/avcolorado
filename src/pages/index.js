@@ -16,8 +16,8 @@ const index = () => {
     <Layout>
       <StyledHero home="true">
         <Banner
-          title="continue exploring"
-          info=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, officiis."
+          title="spread the truth"
+          info="Join the fastest growing animal rights organization and help put an end to the moral emergency that is animal agriculture"
         >
           <Link
             className="btn-white"

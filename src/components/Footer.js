@@ -1,8 +1,8 @@
-import React from "react"
-import styles from "../css/footer.module.css"
-import links from "../constants/links"
-import socialIcons from "../constants/social-icons"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import React from 'react'
+import styles from '../css/footer.module.css'
+import links from '../constants/links'
+import socialIcons from '../constants/social-icons'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 const Footer = () => {
   return (
@@ -31,8 +31,8 @@ const Footer = () => {
         })}
       </div>
       <div className={styles.copyright}>
-        copyright &copy; backroads travel company {new Date().getFullYear()} all
-        rights reserved
+        copyright &copy; AV Colorado {new Date().getFullYear()} all rights
+        reserved
       </div>
     </footer>
   )
