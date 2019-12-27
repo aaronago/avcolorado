@@ -20,13 +20,13 @@ const Calendar = () => (
       <p>
         Each event in this calendar has a link to a public Facebook event. We
         strongly recommend checking this link (you don&apos;t need a Facebook
-        account) before coming to a as the location or time may change.
+        account) before coming to a cube as the location or time may change.
       </p>
       <p>
         Again, the best way to get involved with AV is to join your
-        chapter&apos; Facebook group. You&apos;ll have access to the most up to
+        chapter&apos;s Facebook group. You&apos;ll have access to the most up to
         date info on cubes and be able to RSVP for cubes you plan to attend
-        which really helps the organizers plan. If you&apos;re deadset against
+        which really helps the organizers. If you&apos;re deadset against
         Facebook we&apos;d still love to see you at cubes, but please take a
         moment to fill out this{' '}
         <a
@@ -35,8 +35,8 @@ const Calendar = () => (
           rel="noopener noreferrer"
         >
           form
-        </a>{' '}
-        to get updates.
+        </a>
+        .
       </p>
     </div>
   </section>
