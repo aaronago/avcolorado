@@ -23,20 +23,18 @@ const Calendar = () => (
         account) before coming to a cube as the location or time may change.
       </p>
       <p>
-        Again, the best way to get involved with AV is to join your
-        chapter&apos;s Facebook group. You&apos;ll have access to the most up to
-        date info on cubes and be able to RSVP for cubes you plan to attend
-        which really helps the organizers. If you&apos;re deadset against
-        Facebook we&apos;d still love to see you at cubes, but please take a
-        moment to fill out this{' '}
+        The best way to get involved with AV is to join your chapter&apos;s
+        Facebook group, but if you are not interested in using Facebook
+        we&apos;d still love for you to join us. Please take a moment to fill
+        out this{' '}
         <a
           href="https://forms.gle/ZZ2xy2wYLQTiZBsD7"
           target="_blank"
           rel="noopener noreferrer"
         >
           form
-        </a>
-        .
+        </a>{' '}
+        so we know how to get in touch with you about volunteering.
       </p>
     </div>
   </section>
