@@ -27,7 +27,7 @@ const index = () => {
             offset={70}
             duration={1000}
           >
-            Calendar
+            Events
           </Link>
         </Banner>
       </StyledHero>
